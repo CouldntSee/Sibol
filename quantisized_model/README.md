@@ -13,8 +13,7 @@ that `SIBOL_NODE.ino` evaluates on-chip.
 | `params.json` | generated — node parameters for the prototype build |
 | `model_report.txt` | generated — metrics, confusion matrix, readable rules |
 
-The three generated files are produced by the script. Delete them and re-run to
-prove the pipeline reproduces them.
+
 
 ## Run
 
