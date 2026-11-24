@@ -1,8 +1,6 @@
-/* SIBOL NODE · ESP32 + MQ-135 + SSD1306 0.96" (128x64) + 3.7 V Li-ion
-   POWER RULE: 3.7 V cell -> 5 V boost -> ESP32 VIN and MQ-135 heater.
-   Never put 3.7 V on the 3V3 pin (abs max 3.6 V) or on VIN (LDO dropout brownout).
-   GPIO32 senses the heater rail through 100k/100k so the node can flag undervoltage.
-   Libs: ESP32 Arduino core, Adafruit SSD1306 + Adafruit GFX */
+/* sibol Node beta version code
+There a bug with the app ffeature where it cant be loaded automatically. you msut dowanload the  SIBOL.htm ffirst to use the html propaerly*/
+
 #include <WiFi.h>
 #include <WebServer.h>
 #include <DNSServer.h>
